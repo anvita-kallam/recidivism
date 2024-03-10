@@ -1,25 +1,16 @@
-# 📦 Streamlit App Starter Kit 
+# ⚖️ Fairness Evaluation of Recidivism Predicting Models
 ```
-⬆️ (Replace above with your app's name)
+https://recidivism-g64txt2w52gfzrqjws9fdf.streamlit.app/
 ```
 
-Description of the app ...
+This app uses insights from the COMPAS dataset to examine the mathematical fairness of predictive models often used in the criminal justice system.
 
-## Demo App
+## What is the COMPAS dataset?
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+The COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) dataset is a widely used dataset in criminal justice research. It contains information about defendants who were assessed using the COMPAS risk assessment tool, which is designed to predict the likelihood of a defendant reoffending or failing to appear for their court dates. The dataset typically includes features such as demographic information, criminal history, and COMPAS scores, as well as information about whether the defendant was re-arrested or failed to appear in court after the assessment.
 
-## GitHub Codespaces
+## What is recidivism?
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+Recidivism refers to the tendency of a convicted criminal to reoffend or relapse into criminal behavior, often after receiving sanctions or undergoing intervention for a previous crime. It's typically measured by looking at whether individuals who have been convicted of a crime commit new offenses or violate the conditions of their release (such as probation or parole) within a certain period of time after their initial conviction.
 
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+Recidivism rates are commonly used as indicators of the effectiveness of rehabilitation programs, corrections policies, and interventions within the criminal justice system. Lower recidivism rates suggest that interventions, such as rehabilitation programs or community supervision, are successful in reducing the likelihood of individuals returning to criminal behavior.
